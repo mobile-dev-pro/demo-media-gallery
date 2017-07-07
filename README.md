@@ -5,7 +5,7 @@ This demo app demonstrate how to use with 'media-gallery' module in Android app
 
 
 ### How to clone remote modules?
-* you should have access to repository where source code of "media-gallery" module is placed;
+* you should have access to [repository](https://bitbucket.org/mobile-dev-pro/media-gallery) where source code of "media-gallery" module is placed;
 * if you have access, go to root directory of this project and call commands in the terminal:
    * git submodule init
    * git submodule update
