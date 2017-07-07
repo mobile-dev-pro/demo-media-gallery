@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Media Gallery Demo</string>
+    <string name="app_title_select_videos">Select video</string>
 
     <string name="button_library_video">Video Gallery</string>
 
-    <string name="demo_message">This app demonstrates example of our custom Video Gallery for Android.</string>
+    <string name="demo_message">This app demonstrates an example of our custom Video Gallery for Android.</string>
     <string name="demo_message_contact_us">You like it? Contact us <a href="https://www.facebook.com/mobiledevpro/">#MobileDevPro</a></string>
 </resources>
