@@ -9,3 +9,7 @@ This demo app demonstarte how to use with 'media-gallery' module in Android app
    * git submodule init
    * git submodule update
 * that's all! Build project. 
+
+### Preview 
+
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/5750211/27964912-960c92b4-6342-11e7-9cbd-47a6e70ec87c.gif)
