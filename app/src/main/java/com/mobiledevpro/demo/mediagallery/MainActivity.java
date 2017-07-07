@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
                                 " videos",
                         Toast.LENGTH_SHORT
                 ).show();
+                playSelectedVideos(fileUrls);
                 break;
             default:
                 super.onActivityResult(requestCode, resultCode, data);
@@ -65,5 +66,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MediaGalleryActivity.class);
         intent.putExtra(MediaGalleryActivity.EXTRA_KEY_LAUNCH_FRAGMENT, MediaGalleryActivity.EXTRA_KEY_GALLERY_VIDEO);
         startActivityForResult(intent, REQUEST_CODE_MEDIA_GALLERY);
+    }
+
+    private void playSelectedVideos(ArrayList<String> fileUrlsList) {
+        Intent intent = new Intent(MainActivity.this, VideoPlayerActivity.class);
+        intent.putExtra(VideoPlayerActivity.KEY_VIDEO_URLS_LIST, fileUrlsList);
+        startActivity(intent);
     }
 }

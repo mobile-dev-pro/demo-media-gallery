@@ -21,6 +21,11 @@
         <activity
             android:name=".MediaGalleryActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".VideoPlayerActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.FullScreen"/>
     </application>
 
 </manifest>

@@ -48,4 +48,21 @@
         <item name="background">@color/colorPrimary</item>
     </style>
 
+    <!--Styles for Video player -->
+    <style name="AppTheme.PlayerSeekBar.Layout" parent="AppTheme">
+        <item name="android:background">@color/colorBlackTransparent</item>
+    </style>
+
+    <!-- Seek Bar-->
+    <style name="AppTheme.PlayerSeekBar" parent="AppTheme">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!-- Timer near Seek Bar -->
+    <style name="AppTheme.PlayerSeekBar.Timer" parent="AppTheme">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
 </resources>
