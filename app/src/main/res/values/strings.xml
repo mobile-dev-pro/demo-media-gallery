@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Media Gallery Demo</string>
+
+    <string name="button_library_video">Video Library</string>
+</resources>
