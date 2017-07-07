@@ -1,0 +1,3 @@
+[submodule "media-gallery"]
+        path = media-gallery
+        url = https://dmitriy-chernysh@bitbucket.org/mobile-dev-pro/media-gallery.git
